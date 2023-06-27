@@ -41,10 +41,8 @@ class PdfController extends Controller
         ]);
         
 
-        // dd($data);
-
-
         $mpdf->WriteHTML($html);
         return $mpdf->Output();
+        $mpdf->Output('Nepali Report.pdf', 'D');
     }
 }
