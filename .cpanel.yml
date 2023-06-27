@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/kantggjb/pdfmachine.kantipurinfotech.com.np
-    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -r * $DEPLOYPATH
