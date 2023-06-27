@@ -11,7 +11,7 @@ class PdfController extends Controller
     {
         
 
-        $response = file_get_contents('http://192.168.1.179:8000/api/report/final-report-in-nepali/'.$id.'/');
+        $response = file_get_contents('https://limsserver.kantipurinfotech.com.np/api/report/final-report-in-nepali/'.$id.'/');
 
         $data = json_decode($response, true);
 
